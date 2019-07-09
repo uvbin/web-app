@@ -1,10 +1,11 @@
 import React from 'react';
+import Layout from './containers/Layout/Layout';
 
 function App() {
   return (
-    <div>
-      <p>This is a test!</p>
-    </div>
+    <Layout>
+      <p>Nested in layout</p>
+    </Layout>
   );
 }
 

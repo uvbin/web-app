@@ -1,0 +1,9 @@
+.Layout {
+    padding: 20px;
+    flex: auto;
+    flex-flow: wrap;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background: #0f0f0f;
+}
