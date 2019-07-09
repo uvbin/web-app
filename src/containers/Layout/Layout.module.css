@@ -5,5 +5,9 @@
     text-align: center;
     font-size: 40px;
     color: white;
-    background: #0f0f0f;
+    background: #cccccc;
+}
+
+.Layout input {
+    background: #ffffff;
 }
