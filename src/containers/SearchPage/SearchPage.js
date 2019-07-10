@@ -3,6 +3,8 @@ import Banner from '../../components/Banner/Banner';
 import ContentSearch from '../../components/ContentSearch/ContentSearch';
 import Filter from '../Filter/Filter';
 import Aux from '../../hoc/Auxiliary';
+import ContentViewer from '../../components/ContentViewer/ContentViewer';
+import ContentTiles from '../ContentTiles/ContentTiles';
 
 class SearchPage extends Component {
 
@@ -12,7 +14,10 @@ class SearchPage extends Component {
                 <Banner>
                     <ContentSearch />
                 </Banner>
-                <Filter />
+                <ContentViewer>
+                    <Filter />
+                    <ContentTiles />
+                </ContentViewer>
             </Aux>
         );
     }
