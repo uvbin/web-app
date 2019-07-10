@@ -1,0 +1,9 @@
+.ContentSearch {
+    overflow: hidden;
+}
+
+.enter {
+    float: right;
+    border: none;
+    font-size: 15px;
+  }
