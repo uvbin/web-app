@@ -2,12 +2,8 @@
     padding: 20px;
     flex: auto;
     flex-flow: wrap;
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     color: white;
-    background: #cccccc;
-}
-
-.Layout input {
-    background: #ffffff;
+    background: #020202;
 }

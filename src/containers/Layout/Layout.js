@@ -12,8 +12,7 @@ class Layout extends Component {
         return (
             <Aux>
                 <div className={classes.Layout}>
-                    <p>Shweet Layout!</p>
-                    <input type="text"/>
+                    <p>UVBin</p>
                 </div>
                 {this.props.children}
             </Aux>

@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from './containers/Layout/Layout';
+import SearchPage from './containers/SearchPage/SearchPage';
 
 function App() {
   return (
     <Layout>
-      <p>Nested in layout</p>
+      <SearchPage />
     </Layout>
   );
 }
