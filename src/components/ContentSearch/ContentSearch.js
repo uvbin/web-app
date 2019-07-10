@@ -4,7 +4,10 @@ import classes from './ContentSearch.module.css';
 const contentSearch = (props) => {
     return(
         <div className={classes.ContentSearch}>
-            <input className={classes.enter} type="text" placeHolder="Search..."/>
+            <form>
+                <input type="text" placeHolder="Search..."/>
+                <button>Search</button>
+            </form>
         </div>
     );
 }
