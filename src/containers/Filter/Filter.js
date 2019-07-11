@@ -10,7 +10,7 @@ class Filter extends Component {
 
     render () {
         return (
-            <div>
+            <div className={classes.body}>
                 {this.state.filterHeadings.map((el, index) => {
                     return <FilterList heading={el} />;
                 })}

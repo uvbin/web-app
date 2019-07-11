@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from './containers/Layout/Layout';
-import SearchPage from './containers/SearchPage/SearchPage';
+import SearchPage from  './components/SearchPage/SearchPage';
 
 function App() {
   return (

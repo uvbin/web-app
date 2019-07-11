@@ -1,9 +1,15 @@
 import React from 'react';
 
+import Filter from '../../containers/Filter/Filter';
+import ContentTiles from '../../containers/ContentTiles/ContentTiles';
+
+import classes from './ContentViewer.module.css';
+
 const contentViewer = (props) => {
     return (
-        <div>
-            {props.children}
+        <div className={classes.gridContainer}>
+            <Filter />
+            <ContentTiles />
         </div>
     );
 }
