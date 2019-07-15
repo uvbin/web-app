@@ -1,4 +1,6 @@
 .Layout {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
     padding: 20px;
     flex: auto;
     flex-flow: wrap;
@@ -6,4 +8,15 @@
     font-size: 40px;
     color: white;
     background: #020202;
+}
+
+button {
+    grid-column: 3;
+    background: #141414;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #333333;
 }

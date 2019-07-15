@@ -1,12 +1,9 @@
 import React from 'react';
 import Layout from './containers/Layout/Layout';
-import SearchPage from  './components/SearchPage/SearchPage';
 
 function App() {
   return (
-    <Layout>
-      <SearchPage />
-    </Layout>
+    <Layout />
   );
 }
 
