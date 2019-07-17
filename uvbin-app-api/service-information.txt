@@ -1,0 +1,22 @@
+Service Information
+service: uvbin-app-api
+stage: prod
+region: us-east-2
+stack: uvbin-app-api-prod
+resources: 35
+api keys:
+  None
+endpoints:
+  POST - https://zl92weitsf.execute-api.us-east-2.amazonaws.com/prod/models
+  GET - https://zl92weitsf.execute-api.us-east-2.amazonaws.com/prod/models/{id}
+  GET - https://zl92weitsf.execute-api.us-east-2.amazonaws.com/prod/models
+  PUT - https://zl92weitsf.execute-api.us-east-2.amazonaws.com/prod/models/{id}
+  DELETE - https://zl92weitsf.execute-api.us-east-2.amazonaws.com/prod/models/{id}
+functions:
+  create: uvbin-app-api-prod-create
+  get: uvbin-app-api-prod-get
+  list: uvbin-app-api-prod-list
+  update: uvbin-app-api-prod-update
+  delete: uvbin-app-api-prod-delete
+layers:
+  None

@@ -1,0 +1,11 @@
+{
+    "pathParameters": {
+      "id": "987fca00-a85c-11e9-bff5-af5a5710b9db"
+    },
+    "requestContext": {
+      "identity": {
+        "cognitoIdentityId": "MODEL-DUDE-0069"
+      }
+    }
+  }
+  
