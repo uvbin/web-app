@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 //import config from "./config";
 import './index.css';
 
-
+// For use later - hitting backend
 // Amplify.configure({
 //     Auth: {
 //       mandatorySignIn: true,
@@ -37,7 +37,7 @@ ReactDOM.render(
     // in App.js and Routes.js
     <BrowserRouter>
         <App />
-    </BrowserRouter>, 
+    </BrowserRouter>,
     document.getElementById('root')
 );
 
