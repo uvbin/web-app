@@ -34,7 +34,7 @@ import './index.css';
 
 ReactDOM.render(
     // We wrap our App render in Browser BrowserRouter, it works with Router
-    // in App.js
+    // in App.js and Routes.js
     <BrowserRouter>
         <App />
     </BrowserRouter>, 
