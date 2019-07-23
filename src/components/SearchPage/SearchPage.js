@@ -1,7 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import ContentSearch from '../ContentSearch/ContentSearch';
-
 import ContentViewer from '../ContentViewer/ContentViewer';
 
 
