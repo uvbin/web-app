@@ -25,8 +25,10 @@ const Layout = (props) => {
 
     return (
         <PageLayout>
-            <Header className="header">
-                <a href="/" className="">uvbin</a>
+            <Header className={classes.header}>
+                {/* <div>
+                    <a href="/" className={classes.logo}>uvbin</a>
+                </div> */}
                 <Menu 
                     theme="dark"
                     mode="horizontal"
