@@ -6,8 +6,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 //import config from "./config";
 import './index.css';
+import 'antd/dist/antd.css';
+
 // Necessary for reactstrap to work
-import 'bootstrap/dist/css/bootstrap.css';
 
 // For use later - hitting backend
 // Amplify.configure({
