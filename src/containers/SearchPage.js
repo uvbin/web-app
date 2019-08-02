@@ -1,6 +1,6 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
-import ContentSearch from '../ContentSearch/ContentSearch';
+import Banner from './Banner';
+import ContentSearch from '../../css/ContentSearch/ContentSearch';
 import ContentViewer from '../ContentViewer/ContentViewer';
 
 

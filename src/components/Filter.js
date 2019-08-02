@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import classes from './Filter.module.css';
-import FilterList from '../../components/FilterList/FilterList';
+import FilterList from './FilterList';
 
 const Filter = (props) => {
 

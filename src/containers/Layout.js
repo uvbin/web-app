@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SearchPage from '../../components/SearchPage/SearchPage';
-import AccountPage from '../../components/AccountPage/AccountPage.js';
+import SearchPage from '../components/SearchPage';
+import AccountPage from '../components/AccountPage.js/index.js';
 import {
     Layout as PageLayout,
     Menu,
