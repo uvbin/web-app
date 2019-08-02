@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from './Banner';
+import Banner from '../components/Banner';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import ContentSearch from './ContentSearch';
-import ContentViewer from './ContentViewer';
+import ContentSearch from '../components/ContentSearch';
+import ContentViewer from '../components/ContentViewer';
 
 
 const searchPage = () => {
