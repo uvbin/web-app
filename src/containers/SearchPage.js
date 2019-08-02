@@ -1,7 +1,9 @@
 import React from 'react';
-import Banner from '../components/Banner';
-import ContentSearch from '../components/ContentSearch';
-import ContentViewer from '../components/ContentViewer';
+import Banner from './Banner';
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
+import ContentSearch from './ContentSearch';
+import ContentViewer from './ContentViewer';
 
 
 const searchPage = () => {
@@ -10,7 +12,11 @@ const searchPage = () => {
             <Banner>
                 <ContentSearch />
             </Banner>
-            <ContentViewer />
+            <Container>
+                <Box my={2}>
+                    <ContentViewer />
+                </Box>
+          </Container>
         </div>
     );
 }
