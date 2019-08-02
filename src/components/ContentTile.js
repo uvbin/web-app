@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ContentTile.module.css';
+import classes from '../css/ContentTile.module.css';
 
 const contentTile = (props) => {
     const {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './AccountPage.module.css';
+import classes from '../css/AccountPage.module.css';
 
 const accountPage = (props) => {
     return (

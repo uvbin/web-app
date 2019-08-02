@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './ContentSearch.module.css';
+import classes from '../css/ContentSearch.module.css';
 
 const contentSearch = (props) => {
     return(

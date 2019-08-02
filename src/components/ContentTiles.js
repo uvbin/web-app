@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ContentTile from '../../components/ContentTile/ContentTile';
-import classes from './ContentTiles.module.css';
+import ContentTile from './ContentTile';
+import classes from '../css/ContentTiles.module.css';
 
 const ContentTiles = (props) => {
 
