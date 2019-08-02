@@ -1,4 +1,19 @@
-.Tile {
+.container {
+    position: relative;
+    /* height: 100%; */
+    height: 12vw;
+    flex: 0 0 12vw;
     margin: 5px;
-    background: #c0c0c0;
+}
+
+.border {
+    background: #fcfcfc;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16pt;
 }

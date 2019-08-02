@@ -2,15 +2,16 @@ import React from 'react';
 import classes from './ContentTile.module.css';
 
 const contentTile = (props) => {
+    const {
+        index,
+
+    } = props
+    
     return (
-        <div className={classes.Tile}>
-            <h1>I'm a content tile: {props.index}</h1>
-            <ul>
-                <li>Image</li>
-                <li>Description</li>
-                <li>Price</li>
-                <li>Formats</li>
-            </ul>
+        <div className={[classes.container, classes.border].join(' ')}>
+            <div className={classes.title}>
+                <h1>Tile {index}</h1>
+            </div>
         </div>
     );
 }
