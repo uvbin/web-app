@@ -12,7 +12,9 @@ const searchPage = () => {
             <Banner>
                 <ContentSearch />
             </Banner>
-            <ContentViewer />
+                {/*<Box my={2}>*/}
+                    <ContentViewer />
+                {/*</Box>*/}
         </div>
     );
 }
