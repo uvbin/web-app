@@ -1,4 +1,14 @@
-.Tile {
-    margin: 5px;
-    background: #c0c0c0;
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.border {
+    border: 2px #000000;
+    box-shadow: 1px #000000;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 16pt;
 }
