@@ -6,7 +6,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 //import config from "./config";
 import './index.css';
-import 'antd/dist/antd.css';
+import 'typeface-roboto';
+
 
 // Necessary for reactstrap to work
 
@@ -21,7 +22,7 @@ import 'antd/dist/antd.css';
 //     },
 //     Storage: {
 //       region: config.s3.REGION,
-//       bucket: config.s3.BUCKET,
+//       bucket: config.s3.BUCKET,npm start
 //       identityPoolId: config.cognito.IDENTITY_POOL_ID
 //     },
 //     API: {
