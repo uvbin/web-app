@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import classes from './Filter.module.css';
+import classes from '../css/Filter.module.css';
 import FilterList from './FilterList';
 
 const Filter = (props) => {

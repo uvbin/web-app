@@ -1,7 +1,7 @@
 import React from 'react';
-import Banner from './Banner';
-import ContentSearch from '../../css/ContentSearch/ContentSearch';
-import ContentViewer from '../ContentViewer/ContentViewer';
+import Banner from '../components/Banner';
+import ContentSearch from '../components/ContentSearch';
+import ContentViewer from '../components/ContentViewer';
 
 
 const searchPage = () => {

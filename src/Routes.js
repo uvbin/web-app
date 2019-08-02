@@ -2,10 +2,10 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 // import of components associated with a path
-import Layout from './containers/Layout/Layout';
-import AccountPage from './components/AccountPage/AccountPage';
-import SearchPage from './components/SearchPage/SearchPage';
-import ContentSearch from './components/ContentSearch/ContentSearch';
+import Layout from './containers/Layout';
+import AccountPage from './containers/AccountPage';
+import SearchPage from './containers/SearchPage';
+import ContentSearch from './components/ContentSearch';
 
 export default () => 
     // Switch controls which component is loaded based on the path

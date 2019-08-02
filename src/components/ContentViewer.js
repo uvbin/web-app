@@ -1,9 +1,7 @@
 import React from 'react';
-
-import Filter from '../../containers/Filter/Filter';
 import ContentTiles from './ContentTiles';
-
-import classes from './ContentViewer.module.css';
+import Filter from './Filter';
+import classes from '../css/ContentViewer.module.css';
 
 const contentViewer = (props) => {
     return (
