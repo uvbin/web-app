@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import SearchPage from './SearchPage';
-import AccountPage from './AccountPage.js';
+import SearchPage from './Routes/SearchPage';
+import AccountPage from './Routes/AccountPage.js';
 import classes from '../css/Layout.module.css';
 
 const Layout = (props) => {

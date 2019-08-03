@@ -3,8 +3,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 // import of components associated with a path
 import Layout from './containers/Layout';
-import AccountPage from './containers/AccountPage';
-import SearchPage from './containers/SearchPage';
+import AccountPage from './containers/Routes/AccountPage';
+import SearchPage from './containers/Routes/SearchPage';
 import ContentSearch from './components/ContentSearch';
 
 export default () => 
